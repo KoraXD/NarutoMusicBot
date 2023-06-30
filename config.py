@@ -7,26 +7,25 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = 18641799
+API_HASH = "2027706706fd39baf84c01ff5b95a6a6"
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = "6070840326:AAFBz26AeHFesWjcalC2_ULEvDnUQmMpXLg"
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Gʀᴏᴜᴘ Cᴏɴᴛʀᴏʟʟᴇʀ ダ ᴍᴜsɪᴄ")
-
-OWNER_ID = list(map(int, getenv("OWNER_ID", "2145093972").split()))
+MONGO_DB_URI = "mongodb+srv://personaluse:ImCrAzYbOy@personaluse.ounsjuz.mongodb.net/?retryWrites=true&w=majority"
+LOG_GROUP_ID = -1001877512864
+MUSIC_BOT_NAME = "Naruto Uzumaki"
+OWNER_ID = [5951162757]
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Noob-Mukesh/Telegram-Music")
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_REPO = "https://github.com/KoraXD/NarutoMusicBot"
+UPSTREAM_BRANCH = "master"
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mr_sukkun")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/worldwide_friend_zone")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NarutoXUpdates")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/NarutoXChats")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
